@@ -1,0 +1,23 @@
+.searchBar{
+  background-color: white;
+  text-align: left;
+  border: solid 0.5px #E1E1E1 ;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.searchBar > #search{
+  font-family:serif;
+  display: inline-block;
+  width: 85%;
+  font-size: 1.5em;
+  border-style: hidden;
+}
+
+#searchIcon{
+  max-height: 2em;
+  float:right;
+  margin: auto 0.5em auto auto;
+
+}

@@ -1,0 +1,18 @@
+@import './assets/fonts/fonts.css';
+@import './assets/bootstrap/bootstrap-theme.css';
+@import './assets/bootstrap/bootstrap.css';
+@import './assets/css/navBar.css';
+@import './assets/css/searchBar.css';
+@import './assets/css/alertTable.css';
+@import './assets/css/logoutPage.css';
+
+
+body {
+  width: 100%;
+  font-family: 'walsheimregular';
+  background-color: #EBECEE;
+}
+
+*:focus {
+  outline: none;
+}

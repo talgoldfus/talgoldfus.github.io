@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'walsheimoblique';
+    src: url('gt-walsheim-regular-oblique-web.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+
+@font-face {
+    font-family: 'walsheimregular';
+    src: url('gt-walsheim-web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

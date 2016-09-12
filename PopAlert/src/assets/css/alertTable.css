@@ -1,0 +1,52 @@
+.mainAlertContainer{
+  border: solid 0.5px #E1E1E1 ;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: solid 1px #E1E1E1;
+  background-color: white;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.btn-group> .selector{
+  font-family:serif;
+  text-align: center;
+  border: solid 0.5px #E1E1E1 ;
+  border-radius: 5px;
+  background-color: #F9F9F9;
+  min-width: 9em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.btn-group> .btn-pressed{
+  color: #D8D8D8;
+  background-color: white;
+
+}
+
+.alert , .editAlert{
+  font-family:serif;
+  font-size: 1.5em;
+  border: solid 0.5px #E1E1E1 ;
+}
+
+.editAlert> input{
+  width: 70%;
+  border-style: hidden;
+}
+
+.edit{
+  font-family:sans-serif;
+  margin-top: 2em;
+  font-size: 0.5em;
+  border-radius: 5em;
+}
+
+.edit:hover ,.menuBtn:hover{
+  color: black;
+  background-color: #FEE68D;
+  text-decoration: none;
+}

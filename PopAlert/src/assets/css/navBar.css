@@ -1,0 +1,51 @@
+.navBar{
+  width: 100% auto;
+  text-align: center;
+  background-color: black;
+}
+
+.navBar a{
+  width: 100% auto;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+#menuIcon{
+  cursor: pointer;
+  max-height: 2em;
+  margin-right: 5em;
+  margin-top: 2em;
+}
+
+.menu{
+  z-index: 2;
+  left: 3.41em;
+  position:absolute;
+  margin-top: 2em;
+  color: white;
+  border-radius: 0.2em;
+}
+
+.menuWrapper:before {
+  width: 0;
+  height: 0;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-bottom: 1em solid black;
+  content: "";
+  left: 60%;
+  top: -10%;
+  position: absolute;
+  z-index: 2;
+}
+
+.menuBtn{
+  font-family:serif;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
